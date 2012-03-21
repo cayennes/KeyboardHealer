@@ -1,0 +1,38 @@
+Note: I'm not currently playing WoW. I'm happy to do what maintenance I can with a trial account, but I may not notice when a patch comes out or if anything breaks, so please file a ticket on CurseForge or email me at luacayenne@gmail.com if this happens.
+
+== Description ==
+
+This addon lets you target raid members with the keyboard.  It lets you keybind "target first raid member" through 40th (if you so choose; I use this for 10s and I could use it for 25s but it would take a very dedicated keyboard setup to be able to use this for 40s) or "target party member 1 in group 1" etc., in the order that they are displayed in your raid frame.  It supports the blizzard raid frame and grid if it's organized by party, and possibly others with some manual configuration.  I can add support for more raid frames if people who would use this tell me what raid frames they use.
+
+If you find it doesn't work, let me know what your settings are and if they were changed since the most recent time the addon was loaded or they were the settings it loaded with.  You can contact me here on curse or by emailing me at luacayenne@gmail.com.
+
+Due to limitations caused by what blizzard did to prevent addons from automating too much, if the raid changes in combat the keybindings will be wrong until you get out of combat. Due to this it is not recommended for non-organized battlegrounds.  I have figured out a fix that will reduce the number of raid frame configurations that will be confused by raid changes, but I haven't implemented it yet.
+
+I am not working on this with any kind of urgency, given that it's currently working for me and when the subject of keyboard targeting came up on a forum the overwhelming response was people saying how to do things otherwise.
+
+Examples of keybindings to use: the alt key is next to my space bar; I use alt+ qwert/asdfg for targeting my raid.  I would use alt + f1f2f3f4f5/12345/qwert/asdfg/zxcvb if I did 25s (this works well on laptop/compact style keyboards for people with large enough hands or small enough keyboards.)  The person who suggested this uses 1-5 for targeting party members and was thinking of either 6-0 or a modifier with 1-5 for targeting the second group when she started raiding.
+
+Since I prefer the mouse for movement, this addon has made it easier for me to both heal and move during phases that require that, and thus made me a better raider.  At other times it hasn't changed my performance, but is a more enjoyable interface for me to use.
+
+== Current Features ==
+
+ * Full support for the default blizzard raid frames and grid (auto-detects if you are using grid, or you can set which you are using manually)
+ * Can be manually configured for any raid frame that sorts the raid based on any of group, role, name, or raid id (raid id sorts the raid by the order in which people joined the raid and is likely the sort order used when there is no apparent sort order.)
+ * The group 1 keybindings will target normal party arrangement when you are not in a raid
+ * Keybindings in options panel since finding things in blizzard keybindings is annoying
+
+== Planned Features ==
+
+(Sorry, development is on hold for the time being.)
+
+ * Capability to not mix up keybindings until the end of combat when the raid is changed in combat for some configurations (notably grid and blizzard with "keep groups together" checked) at the price of sometimes mixing them up when you switch between a party and a raid in combat.
+ * Support for ElvUI
+ * Different keybindings depending on raid size
+
+== Considered Features ==
+
+Any of these will be put on the planned features list if requested by anyone (why spend time on features that no one wants, or at least no one wants enough to take the time to send me a message?)
+ * Support for any other raid frame addon someone tells me they use
+ * Option to have keybindings cast spells on targets; if modifiers weren't used in the keybindings they could cause different spells to be cast; profiles would be added with this feature
+ * Keybindings for targeting raid pets
+ * Easy way to swap group keybindings (so that for example you can have the group with the tank you're healing on your easiest to reach keys.)

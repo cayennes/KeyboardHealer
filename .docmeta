@@ -1,0 +1,3 @@
+type: creole
+input-file: README.creole
+output-page: "Main"
