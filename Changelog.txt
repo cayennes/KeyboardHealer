@@ -1,0 +1,20 @@
+0.2.1
+
+ * Updated .toc for 4.2
+ * Calling it beta ready
+
+0.2 Full functionality, needs more testing
+
+ * supports every default raid frame mode
+ * Auto-detection of raid frames and how they're sorted
+ * keybindings in config panel
+ * Only prints raid-changed-in-combat message once per combat, and prints message when out of combat and it's fixed
+ * Only does this when a change actually affected a keybinding
+ * The buttons not bound to used raid IDs are bound to unused raid IDs so that *some* button will target a raid member even during the rest of a combat they were added during
+ * Code reorganization
+
+0.1 Initial upload; if it's not too buggy it will provide very basic functionality for the two people I know of who would use this addon
+
+ * Keybindings in blizzard keybinding interface
+ * Two options for sorting; compatible with basic by-group displays of grid and blizzard raid panel
+

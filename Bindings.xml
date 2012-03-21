@@ -1,0 +1,41 @@
+<Bindings>
+	<Binding name="CLICK KeyboardHealerSB1:LeftButton" header="KEYBOARDHEALER" />
+	<Binding name="CLICK KeyboardHealerSB2:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB3:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB4:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB5:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB6:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB7:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB8:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB9:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB10:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB11:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB12:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB13:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB14:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB15:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB16:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB17:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB19:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB20:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB21:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB22:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB23:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB24:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB25:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB26:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB27:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB28:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB29:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB30:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB31:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB32:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB33:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB34:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB35:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB36:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB37:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB38:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB39:LeftButton" />
+	<Binding name="CLICK KeyboardHealerSB40:LeftButton" />
+</Bindings>

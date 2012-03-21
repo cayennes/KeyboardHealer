@@ -1,0 +1,11 @@
+## Interface: 40200
+## Title: KeyboardHealer
+## Notes: Provides keybindings for targeting raid members.
+## Version: 0.2.1
+## Author: Cayenne
+## SavedVariables: KeyboardHealerDB
+Embeds.xml
+KeyboardHealer.lua
+RaidRoster.lua
+BindingButtons.lua
+Config.lua
