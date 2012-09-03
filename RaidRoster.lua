@@ -59,10 +59,10 @@ function RaidRoster:setRoleByName(name, role)
 end
 
 function RaidRoster:updateRaid()
-	for i = 1, GetNumRaidMembers() do
+	for i = 1, GetNumGroupMembers() do
 		self[i] = RaidMember:new(i)
 	end
-	for i = GetNumRaidMembers() + 1, 40 do
+	for i = GetNumGroupMembers() + 1, 40 do
 		self[i] = nil
 	end
 end

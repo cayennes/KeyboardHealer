@@ -1,7 +1,7 @@
-## Interface: 40300
+## Interface: 50001
 ## Title: KeyboardHealer
 ## Notes: Provides keybindings for targeting raid members.
-## Version: 0.2.2
+## Version: 0.2.3
 ## Author: Cayenne
 ## SavedVariables: KeyboardHealerDB
 Embeds.xml

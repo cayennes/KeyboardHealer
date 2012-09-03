@@ -1,3 +1,7 @@
+0.2.3
+
+ * Untested fixes for 5.0.4
+
 0.2.2
 
  * Updated .toc for 4.3

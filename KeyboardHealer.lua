@@ -24,7 +24,7 @@ end
 
 function KeyboardHealer:queueUpdateBindings()
 	if KeyboardHealer.db.profile.group then
-		local nextUnusedRaidID = GetNumRaidMembers() + 1
+		local nextUnusedRaidID = GetNumGroupMembers() + 1
 		for group = 1, 8 do
 			groupMembers = RaidRoster:getGroup(group)
 			for partyIndex = 1, 5 do
@@ -156,7 +156,7 @@ end
 
 function KeyboardHealer:setEventTypeEnabled(eventType, enable)
 	local events = {
-		rosterEvent = {"RAID_ROSTER_UPDATE", "PARTY_CONVERTED_TO_RAID", "PLAYER_ENTERING_BATTLEGROUND"},
+		rosterEvent = {"GROUP_ROSTER_UPDATE", "PARTY_CONVERTED_TO_RAID", "PLAYER_ENTERING_BATTLEGROUND"},
 		roleEvent = {"ROLE_CHANGED_INFORM"},
 		addonEvent = {"ADDON_LOADED"}, -- possible to load but not unload addons without a complete reload
 	}
